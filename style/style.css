@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+header{
+    text-align: right;
+}
+
+.app{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+}
+
+.nav > li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.nav > li > button{
+    border: none;
+    padding: 10px;
+}
+
+.nav > li:hover{
+    border: darkslategray 1px solid;
+}
+
+main{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+textarea{
+    width: 90%;
+    border-radius: 25px;
+    border-style: none;
+    position: relative;
+    top: -5px;
+}
+
+.logo{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+.search, .microphone {
+    height: 20px;
+    width: 20px;
+    /* z-index: 2; */
+    position: relative;
+    top: 20px;
+}
+
+.search:hover{
+    border: darkslategray 1px solid;
+}
+
+.microphone:hover{
+    border: darkslategray 1px solid;
+}
+
+.pictures{
+    display: flex;
+    justify-content:space-between;
+}
+
+.border{
+    margin: auto;
+    width: 52%;
+    padding: 0 10px;
+    border: gray 1px solid;
+    border-radius: 45px;
+} 
+
+.under{
+    margin: 35px;
+}
+
+.under > button{
+    padding: 10px 15px;
+    border-style: none;
+    margin: 0 5px;
+}
+
+.under > p{
+    padding: 30px;
+    font-size: 12px;
+}
+
+.under > p > a{
+    margin: 0 4px;
+    text-decoration: none;
+}
+
+.under > p > a:hover{
+    color: red;
+}
+
+
+footer{
+    background-color: lightgray;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+footer > span{
+    display: block;
+    padding: 15px;
+    border-bottom: gray 1px solid;
+}
+
+li{
+    display: inline;
+}
+
+.right, .left{
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    word-spacing: 40px;
+    font-size: 15px
+}
+
+.word{
+    word-spacing: normal;
+}
+
+.right{
+   left: 55%;
+   bottom: 20px;
+}
+
+.left{
+    top: 20px;
+}
+
+
